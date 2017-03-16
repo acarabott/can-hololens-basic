@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 65700873516570258}
   - component: {fileID: 23604243816645152}
   - component: {fileID: 222388957419365334}
+  - component: {fileID: 114552214045332046}
   m_Layer: 0
   m_Name: cube button
   m_TagString: Untagged
@@ -162,6 +163,18 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
+--- !u!114 &114552214045332046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731485563628776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbd1d510eae904eb7bd49bf2a3ad1f6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonValue: 
 --- !u!222 &222388957419365334
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -180,7 +193,7 @@ RectTransform:
   m_Children:
   - {fileID: 4928070366753042}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
