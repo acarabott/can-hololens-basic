@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 438724}
   - component: {fileID: 3354526}
   - component: {fileID: 2319566}
+  - component: {fileID: 64991490328236752}
   m_Layer: 0
   m_Name: CursorMesh
   m_TagString: Untagged
@@ -72,7 +73,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2c6c8e623989cfe4bbc4b3dae152e615, type: 2}
+  - {fileID: 2100000, guid: 60bbfceb920b84388b2346740a85011a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -96,7 +97,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 162588}
-  m_Mesh: {fileID: 4300000, guid: 220e719a92b3a4148b6ed5b84a07cc8f, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 08de02a00e5c5407a979f5d1c60b1f8e, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -112,3 +113,17 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 154114}
   m_IsPrefabParent: 1
+--- !u!64 &64991490328236752
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162588}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 08de02a00e5c5407a979f5d1c60b1f8e, type: 3}
