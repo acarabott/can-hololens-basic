@@ -18,7 +18,6 @@ public class TapToPlaceParent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(this);
         // If the user is in placing mode,
         // update the placement to match the user's gaze.
 
@@ -34,7 +33,10 @@ public class TapToPlaceParent : MonoBehaviour
             {
                 // Move this object's parent object to
                 // where the raycast hit the Spatial Mapping mesh.
-                this.transform.parent.position = hitInfo.point;
+                // Offset by the hand'es y position
+                var newPos = hitInfo.point;
+                newPos.y -= this.gameObject.transform.localPosition.y;
+                this.transform.parent.position = newPos; 
 
                 // Rotate this object's parent object to face the user.
                 Quaternion toQuat = Camera.main.transform.localRotation;
