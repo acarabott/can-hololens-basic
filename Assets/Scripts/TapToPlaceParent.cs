@@ -7,24 +7,18 @@ public class TapToPlaceParent : MonoBehaviour
     // Called by GazeGestureManager when the user performs a Select gesture
     void OnSelect()
     {
-        // On each Select gesture, toggle whether the user is in placing mode.
-        placing = !placing;
+        if (GazeGestureManager.FocusedObject == this) {
+            // On each Select gesture, toggle whether the user is in placing mode.
+            placing = !placing;
 
-        // If the user is in placing mode, display the spatial mapping mesh.
-        if (placing)
-        {
-            SpatialMapping.Instance.DrawVisualMeshes = true;
-        }
-        // If the user is not in placing mode, hide the spatial mapping mesh.
-        else
-        {
-            SpatialMapping.Instance.DrawVisualMeshes = false;
+            SpatialMapping.Instance.DrawVisualMeshes = placing;
         }
     }
 
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(this);
         // If the user is in placing mode,
         // update the placement to match the user's gaze.
 
