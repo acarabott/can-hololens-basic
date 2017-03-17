@@ -18,6 +18,11 @@ public class OutputManager : MonoBehaviour {
         }
         else if (value == "." && !outputText.text.Contains("."))
         {
+            var needsZero = outputText.text == "-" || outputText.text.Length == 0;
+            outputText.text = outputText.text + (needsZero ? "0." : ".");
+        }
+        else
+        {
             outputText.text += value;
         }
     }

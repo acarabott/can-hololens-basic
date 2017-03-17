@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using HoloToolkit.Unity.InputModule;
+using System;
 
-public class Button : MonoBehaviour {
+public class Button : MonoBehaviour, IInputClickHandler {
 
   public string buttonValue;
   public GameObject textObj;
@@ -21,9 +23,8 @@ public class Button : MonoBehaviour {
 
   }
 
-  // Called by GazeGestureManager when the user performs a Select gesture
-  void OnSelect()
+  public void OnInputClicked(InputEventData eventData)
   {
-    this.transform.SendMessageUpwards("OnInput", buttonValue);
+        this.transform.SendMessageUpwards("OnInput", buttonValue);
   }
 }

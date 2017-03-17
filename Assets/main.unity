@@ -486,7 +486,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 336614163}
-  - component: {fileID: 336614162}
   - component: {fileID: 336614164}
   m_Layer: 0
   m_Name: InputCollection
@@ -495,17 +494,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &336614162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 336614161}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48873064827d54877ab517857e867c0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &336614163
 Transform:
   m_ObjectHideFlags: 0
@@ -1609,7 +1597,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 965424699}
-  - component: {fileID: 965424698}
   - component: {fileID: 965424700}
   m_Layer: 0
   m_Name: ClockCollection
@@ -1618,17 +1605,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &965424698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 965424697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48873064827d54877ab517857e867c0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &965424699
 Transform:
   m_ObjectHideFlags: 0
@@ -2984,7 +2960,7 @@ Transform:
   m_LocalPosition: {x: -0.35, y: 0.064, z: -0.092}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
-  - {fileID: 728766030}
+  - {fileID: 20232428}
   - {fileID: 884154030}
   - {fileID: 1659904254}
   - {fileID: 1654688651}
@@ -2992,9 +2968,9 @@ Transform:
   - {fileID: 1173129359}
   - {fileID: 1135199114}
   - {fileID: 962385913}
+  - {fileID: 728766030}
   - {fileID: 706847558}
   - {fileID: 479540469}
-  - {fileID: 20232428}
   - {fileID: 1050047903}
   m_Father: {fileID: 965424699}
   m_RootOrder: 1
