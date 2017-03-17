@@ -9,7 +9,7 @@ public class Button : MonoBehaviour {
 
   // Use this for initialization
   void Start () {
-    textObj = this.transform.Find("cube text").gameObject;
+    textObj = this.transform.Find("text").gameObject;
     if (textObj != null) {
       TextMesh textMesh = textObj.GetComponent( typeof(TextMesh) ) as TextMesh;
       textMesh.text = buttonValue;
