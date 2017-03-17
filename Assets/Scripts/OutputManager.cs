@@ -10,10 +10,10 @@ public class OutputManager : MonoBehaviour {
 	void Start () {
         outputText.text = "";
 	}
-	
+
 	void OnInput(string value)
     {
-        if (value == "+/-") {
+        if (value == "-") {
             outputText.text = outputText.text.StartsWith("-") ? outputText.text.Remove(0, 1) : "-" + outputText.text;
         }
         else if (value == "." && !outputText.text.Contains("."))

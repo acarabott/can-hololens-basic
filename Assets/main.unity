@@ -228,6 +228,11 @@ Prefab:
       propertyPath: m_Name
       value: text
       objectReference: {fileID: 0}
+    - target: {fileID: 114845782174241718, guid: 967603546c6a54a34bfa6c0be3cc52b5,
+        type: 2}
+      propertyPath: buttonValue
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 967603546c6a54a34bfa6c0be3cc52b5, type: 2}
   m_IsPrefabParent: 0
@@ -742,6 +747,11 @@ Prefab:
       propertyPath: m_Name
       value: text
       objectReference: {fileID: 0}
+    - target: {fileID: 114845782174241718, guid: 967603546c6a54a34bfa6c0be3cc52b5,
+        type: 2}
+      propertyPath: buttonValue
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 967603546c6a54a34bfa6c0be3cc52b5, type: 2}
   m_IsPrefabParent: 0
@@ -899,6 +909,11 @@ Prefab:
     - target: {fileID: 1410251804938490, guid: 967603546c6a54a34bfa6c0be3cc52b5, type: 2}
       propertyPath: m_Name
       value: text
+      objectReference: {fileID: 0}
+    - target: {fileID: 114845782174241718, guid: 967603546c6a54a34bfa6c0be3cc52b5,
+        type: 2}
+      propertyPath: buttonValue
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 967603546c6a54a34bfa6c0be3cc52b5, type: 2}
@@ -1154,6 +1169,11 @@ Prefab:
     - target: {fileID: 1410251804938490, guid: 967603546c6a54a34bfa6c0be3cc52b5, type: 2}
       propertyPath: m_Name
       value: text
+      objectReference: {fileID: 0}
+    - target: {fileID: 114845782174241718, guid: 967603546c6a54a34bfa6c0be3cc52b5,
+        type: 2}
+      propertyPath: buttonValue
+      value: .
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 967603546c6a54a34bfa6c0be3cc52b5, type: 2}
@@ -1479,6 +1499,11 @@ Prefab:
       propertyPath: m_Name
       value: text
       objectReference: {fileID: 0}
+    - target: {fileID: 114845782174241718, guid: 967603546c6a54a34bfa6c0be3cc52b5,
+        type: 2}
+      propertyPath: buttonValue
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 967603546c6a54a34bfa6c0be3cc52b5, type: 2}
   m_IsPrefabParent: 0
@@ -1496,6 +1521,7 @@ GameObject:
   m_Component:
   - component: {fileID: 965424699}
   - component: {fileID: 965424698}
+  - component: {fileID: 965424700}
   m_Layer: 0
   m_Name: ClockCollection
   m_TagString: Untagged
@@ -1530,6 +1556,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &965424700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 965424697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c50fb86816f29ac4181a10986a773bbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outputText: {fileID: 1446468635}
 --- !u!1 &985283482
 GameObject:
   m_ObjectHideFlags: 0
@@ -1711,6 +1749,11 @@ Prefab:
     - target: {fileID: 1410251804938490, guid: 967603546c6a54a34bfa6c0be3cc52b5, type: 2}
       propertyPath: m_Name
       value: text
+      objectReference: {fileID: 0}
+    - target: {fileID: 114845782174241718, guid: 967603546c6a54a34bfa6c0be3cc52b5,
+        type: 2}
+      propertyPath: buttonValue
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 967603546c6a54a34bfa6c0be3cc52b5, type: 2}
@@ -1942,6 +1985,11 @@ Prefab:
     - target: {fileID: 1410251804938490, guid: 967603546c6a54a34bfa6c0be3cc52b5, type: 2}
       propertyPath: m_Name
       value: text
+      objectReference: {fileID: 0}
+    - target: {fileID: 114845782174241718, guid: 967603546c6a54a34bfa6c0be3cc52b5,
+        type: 2}
+      propertyPath: buttonValue
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 967603546c6a54a34bfa6c0be3cc52b5, type: 2}
@@ -2417,6 +2465,11 @@ Prefab:
       propertyPath: m_Name
       value: text
       objectReference: {fileID: 0}
+    - target: {fileID: 114845782174241718, guid: 967603546c6a54a34bfa6c0be3cc52b5,
+        type: 2}
+      propertyPath: buttonValue
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 967603546c6a54a34bfa6c0be3cc52b5, type: 2}
   m_IsPrefabParent: 0
@@ -2847,7 +2900,7 @@ Prefab:
     - target: {fileID: 114552214045332046, guid: 3675c4c59e04e414f8b51f0f8ae92dfa,
         type: 2}
       propertyPath: buttonValue
-      value: +/-
+      value: '-'
       objectReference: {fileID: 0}
     - target: {fileID: 1072597016307172, guid: 3675c4c59e04e414f8b51f0f8ae92dfa, type: 2}
       propertyPath: m_Name
@@ -2886,17 +2939,17 @@ Transform:
   m_LocalPosition: {x: -0.35, y: 0.064, z: -0.092}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
-  - {fileID: 706847558}
-  - {fileID: 884154030}
-  - {fileID: 20232428}
-  - {fileID: 1654688651}
-  - {fileID: 1135199114}
-  - {fileID: 479540469}
-  - {fileID: 1659904254}
-  - {fileID: 1173129359}
-  - {fileID: 962385913}
-  - {fileID: 1392882629}
   - {fileID: 728766030}
+  - {fileID: 884154030}
+  - {fileID: 1659904254}
+  - {fileID: 1654688651}
+  - {fileID: 1392882629}
+  - {fileID: 1173129359}
+  - {fileID: 1135199114}
+  - {fileID: 962385913}
+  - {fileID: 706847558}
+  - {fileID: 479540469}
+  - {fileID: 20232428}
   - {fileID: 1050047903}
   m_Father: {fileID: 965424699}
   m_RootOrder: 1
@@ -3180,6 +3233,11 @@ Prefab:
       propertyPath: m_Name
       value: text
       objectReference: {fileID: 0}
+    - target: {fileID: 114845782174241718, guid: 967603546c6a54a34bfa6c0be3cc52b5,
+        type: 2}
+      propertyPath: buttonValue
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 967603546c6a54a34bfa6c0be3cc52b5, type: 2}
   m_IsPrefabParent: 0
@@ -3333,6 +3391,11 @@ Prefab:
       propertyPath: m_Name
       value: text
       objectReference: {fileID: 0}
+    - target: {fileID: 114845782174241718, guid: 967603546c6a54a34bfa6c0be3cc52b5,
+        type: 2}
+      propertyPath: buttonValue
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 967603546c6a54a34bfa6c0be3cc52b5, type: 2}
   m_IsPrefabParent: 0
@@ -3383,6 +3446,11 @@ Prefab:
     - target: {fileID: 1474780600630140, guid: 967603546c6a54a34bfa6c0be3cc52b5, type: 2}
       propertyPath: m_Name
       value: Clock Button +/-
+      objectReference: {fileID: 0}
+    - target: {fileID: 114845782174241718, guid: 967603546c6a54a34bfa6c0be3cc52b5,
+        type: 2}
+      propertyPath: buttonValue
+      value: '-'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 967603546c6a54a34bfa6c0be3cc52b5, type: 2}
