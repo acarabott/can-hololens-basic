@@ -391,14 +391,14 @@ PlayerSettings:
   additionalIl2CppArgs: 
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: can-hololens-template
+  metroPackageName: ololens-basic
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: DefaultCompany
   metroCertificateIssuer: DefaultCompany
-  metroCertificateNotAfter: 8028016658bdd301
-  metroApplicationDescription: can-hololens-template
+  metroCertificateNotAfter: 800710bd03bed301
+  metroApplicationDescription: can-hololens-basic
   wsaImages: {}
   metroTileShortName: can-hololens-template
   metroCommandLineArgsFile: 
