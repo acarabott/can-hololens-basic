@@ -49,6 +49,7 @@ namespace HoloToolkit.Unity.SpatialMapping
 
         protected virtual void Start()
         {
+            Debug.Log("taptoplace start");
             // Make sure we have all the components in the scene we need.
             anchorManager = WorldAnchorManager.Instance;
             if (anchorManager == null)
@@ -125,6 +126,7 @@ namespace HoloToolkit.Unity.SpatialMapping
 
         public virtual void OnInputClicked(InputEventData eventData)
         {
+            Debug.Log("TapToPlace Input Clicked");
             // On each tap gesture, toggle whether the user is in placing mode.
             IsBeingPlaced = !IsBeingPlaced;
 

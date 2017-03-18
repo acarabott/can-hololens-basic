@@ -1,18 +1,31 @@
 ﻿using UnityEngine;
+using HoloToolkit.Unity.InputModule;
+using System;
 
-public class TapToPlaceParent : MonoBehaviour
+public class TapToPlaceParent : MonoBehaviour, IHoldHandler
 {
     bool placing = false;
 
-    // Called by GazeGestureManager when the user performs a Select gesture
-    void OnSelect()
+    public void OnHoldCanceled(HoldEventData eventData)
     {
-        if (GazeGestureManager.Instance.FocusedObject == gameObject) {
-            // On each Select gesture, toggle whether the user is in placing mode.
-            placing = !placing;
+        Debug.Log("hold cancelled");
+        //placing = false;
+        //SpatialMapping.Instance.DrawVisualMeshes = false;
+        SpatialMapping.Instance.DrawVisualMeshes = false;
+    }
 
-            SpatialMapping.Instance.DrawVisualMeshes = placing;
-        }
+    public void OnHoldCompleted(HoldEventData eventData)
+    {
+        Debug.Log("hold completed");
+        //placing = false;
+        //SpatialMapping.Instance.DrawVisualMeshes = false;
+    }
+
+    public void OnHoldStarted(HoldEventData eventData)
+    {
+        Debug.Log("Hold started");
+        //placing = true;
+        SpatialMapping.Instance.DrawVisualMeshes = true;
     }
 
     // Update is called once per frame

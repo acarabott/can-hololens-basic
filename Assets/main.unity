@@ -2653,9 +2653,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1413445700}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2d23d37f302846de969f7f281c7bad9, type: 3}
+  m_Script: {fileID: 11500000, guid: dbad991a9894486418e4988222483ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SavedAnchorFriendlyName: BlockAnchor
+  PlaceParentOnTap: 1
+  ParentGameObjectToPlace: {fileID: 336614161}
+  IsBeingPlaced: 0
 --- !u!23 &1413445703
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3770,9 +3774,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2068188848}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2d23d37f302846de969f7f281c7bad9, type: 3}
+  m_Script: {fileID: 11500000, guid: dbad991a9894486418e4988222483ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SavedAnchorFriendlyName: ClockAnchor
+  PlaceParentOnTap: 1
+  ParentGameObjectToPlace: {fileID: 965424697}
+  IsBeingPlaced: 0
 --- !u!23 &2068188851
 MeshRenderer:
   m_ObjectHideFlags: 0
