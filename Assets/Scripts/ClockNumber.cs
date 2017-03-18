@@ -13,14 +13,14 @@ public class ClockNumber : MonoBehaviour {
     var angles = transform.parent.eulerAngles;
     transform.Rotate(new Vector3(0.0f, 0.0f, -angles.z));
 
-
-    var position = transform.position;
-    // var radius = 0.18f;
-    var x = Mathf.Cos((Mathf.PI / 180.0f) * (angles.z + 90.0f)) * radius;
-    var y = Mathf.Sin((Mathf.PI / 180.0f) * (angles.z + 90.0f)) * radius;
+    var gpRotation = 360.0f - grandParent.transform.eulerAngles.z;
+    var angle = angles.z + 90.0f + gpRotation;
+    var x = Mathf.Cos((Mathf.PI / 180.0f) * angle) * radius;
+    var y = Mathf.Sin((Mathf.PI / 180.0f) * angle) * radius;
     x += grandParent.transform.position.x;
     y += grandParent.transform.position.y;
 
+    var position = transform.position;
     position.x = x;
     position.y = y;
     transform.position = position;
