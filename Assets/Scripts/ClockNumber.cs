@@ -7,7 +7,6 @@ public class ClockNumber : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-    Button parentButton = transform.parent.GetComponent<Button>();
     GameObject grandParent = transform.parent.transform.parent.gameObject;
 
     var angles = transform.parent.eulerAngles;
